@@ -1,0 +1,39 @@
+{
+  "name": "ej-x6",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@antv/x6-plugin-clipboard": "^2.1.6",
+    "@antv/x6-plugin-history": "^2.2.3",
+    "@antv/x6-plugin-keyboard": "^2.2.1",
+    "@antv/x6-plugin-selection": "^2.1.7",
+    "@antv/x6-plugin-snapline": "^2.1.7",
+    "@antv/x6-plugin-stencil": "^2.1.4",
+    "@antv/x6-plugin-transform": "^2.1.7",
+    "@storybook/addon-essentials": "^7.4.1",
+    "@storybook/addon-interactions": "^7.4.1",
+    "@storybook/addon-links": "^7.4.1",
+    "@storybook/blocks": "^7.4.1",
+    "@storybook/testing-library": "^0.2.0",
+    "@storybook/vue3": "^7.4.1",
+    "@storybook/vue3-vite": "^7.4.1",
+    "insert-css": "^2.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.4.1",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9"
+  },
+  "dependencies": {
+    "@antv/x6": "^2.13.1",
+    "vue": "^3.3.4"
+  },
+  "scripts": {
+    "dev": "npm run storybook",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "packageManager": "yarn@3.6.3"
+}
